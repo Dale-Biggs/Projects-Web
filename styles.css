@@ -3,20 +3,19 @@
   left:850px;
   transform:rotate(-7deg);
   border: 5px solid white;
-
-
 }
 body{
-  background-color: black;
   color:white;
-
+  background-image: url('test3.jpeg');
+  overflow-x: hidden;
 }
 .devInfo{
-  height:250px;
-  color: black;
-  background-color: lightblue;
+  height:230px;
+  color: white;
+  background-image: url('background1.jpg');
   padding-left: 10px;
-  margin-bottom:50px;
+  text-align: left;
+  margin-bottom:40px;
 
 }
 #bio{
@@ -28,10 +27,14 @@ body{
 }
 .info{
   position:relative;
-  bottom: 20px;
+  bottom: 10px;
   left:250px;
-  color:white;
+  color:skyblue;
   border-left: 3px solid white;
   padding-left:30px;
 
+}
+#Everything{
+  position:relative;
+  left:150px;
 }
