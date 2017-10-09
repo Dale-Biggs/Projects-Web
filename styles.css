@@ -1,0 +1,37 @@
+#devPic{
+  position:absolute;
+  left:850px;
+  transform:rotate(-7deg);
+  border: 5px solid white;
+
+
+}
+body{
+  background-color: black;
+  color:white;
+
+}
+.devInfo{
+  height:250px;
+  color: black;
+  background-color: lightblue;
+  padding-left: 10px;
+  margin-bottom:50px;
+
+}
+#bio{
+  position:relative;
+  z-index: 10;
+  display: inline-block;
+  width:700px;
+
+}
+.info{
+  position:relative;
+  bottom: 20px;
+  left:250px;
+  color:white;
+  border-left: 3px solid white;
+  padding-left:30px;
+
+}
